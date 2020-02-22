@@ -1,16 +1,17 @@
 import React from 'react'
-import { Row, Col, Divider ,Descriptions } from 'antd'
+import { Row, Col, Divider, Descriptions } from 'antd'
+import Typical from 'react-typical'
+
 import '../App.css'
 function Profile() {
     const proFile = 'Profile',
         proFiles = '</Profile>'
-
-
+  
     return (
         <>
 
             <div className="innerLine">
-                <Divider orientation="left">
+                <Divider>
                     <h2>{proFile}</h2>
                 </Divider>
 
@@ -20,7 +21,9 @@ function Profile() {
                             <Descriptions.Item label="Name"> Chayanon Phonphet </Descriptions.Item>
                             <Descriptions.Item label="Nickname">Por </Descriptions.Item>
                             <Descriptions.Item label="Date of Birth"> 26 August 1997 </Descriptions.Item>
-                            <Descriptions.Item label="Age"> 22 </Descriptions.Item>
+                            {/* <Descriptions.Item label="Age"> 22 </Descriptions.Item> */}
+
+
                         </Descriptions>
 
                         {/* <h3> Name : Chayanon Phonphet</h3>

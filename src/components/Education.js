@@ -4,12 +4,12 @@ import '../App.css'
 
 function Education() {
     const edu = 'Education',
-        edus ='</Education>'
+        edus = '</Education>'
 
     return (
         <><div className="innerLine">
 
-            <Divider orientation="left">
+            <Divider >
                 <h2>{edu}</h2>
             </Divider>
             <Timeline>
@@ -22,13 +22,14 @@ function Education() {
                     <h2>2016 - Present</h2>
                     <p>
                         Prince of Songkla University Phuket Campus Bachelor of Engineering,Computer Engineering.
+
                 </p>
                 </Row>
                 </Timeline.Item>
 
             </Timeline>
             <Divider >
-            
+
             </Divider>
 
 

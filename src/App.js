@@ -10,6 +10,7 @@ import Skill from './components/Skill'
 import "antd/dist/antd.css";
 import { Router, Switch, Route } from "react-router-dom";
 import Imgprofile from './components/Imgprofile'
+import Contact from './components/Contact'
 
 function App() {
   const [page, setPage] = useState({
@@ -42,20 +43,30 @@ function App() {
 
         </Row>
         <Row style={{ paddingLeft: 150, paddingRight: 150 }}>
+          <Col md={12}>
           <Skill />
+          </Col>
+          <Col md={12}>
+            <Contact/>
+          </Col>
         </Row>
         <Row>
           <Row>
 
-            <Col md={8}>
-              <Profile />
+            <Col md={12}>
+              <Row>
+                <Profile />
+
+              </Row>
+              <Row>
+                <Education />
+
+              </Row>
             </Col>
-            <Col md={8} >
+            <Col md={12} >
               <Experience />
             </Col>
-            <Col md={8}>
-              <Education />
-            </Col>
+           
           </Row>
         </Row>
 

@@ -6,7 +6,7 @@ function Experience() {
 
     return (
         <><div className="innerLine" >
-            <Divider  orientation="left">
+            <Divider >
                 <h2>Experience</h2>
             </Divider>
             <Row>

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300i,300,400,400i,500,700");
 .App {
   text-align: center;
 }
@@ -40,16 +41,22 @@
 .out1{
   border: 50px;
   padding: 100px;
+ 
   background: url('./components/photo/bgbody.jpg');
 }
 
 .round{
-  border: 10px;
-  border: 5px black;
+  /* border: 10px; */
+  border: 10px #120338;
   border-style:  solid;
-  border-radius: 15px;
+  /* border-radius: 5px; */
   background: white;
 
+}
+
+#img{
+  border: 5px black;
+  border-style:  solid;
 }
 
 .innerLine{
@@ -68,9 +75,9 @@ img {
   border: 10px black;
   /* border-style: double; */
   padding: 50px;
-  padding-top: 100px;
+  padding-top: 80px;
   /* background: url('./components/photo/bg.jpeg')no-repeat, rgb(119, 199, 252); */
-  background: gray;
+  /* background; */
   background-size: cover;
   
 }
@@ -87,18 +94,43 @@ img {
   align-items: center;
   justify-content: center;
   position: relative;
-  top:100px;
+  /* top:100px; */
   
 }
 
 .fontPage{
  
-  color: #f0f0f0;
+  /* color: #f0f0f0; */
   display: grid;
   font-family: monospace !important;
   font-size: 24px;
   
   place-content: center;
+}
+
+/* .fontPage{
+  font-family: monospace ;
+  font-size: 30px;
+  place-content: center;
+  display: grid;
+
+} */
+
+.fontApp{
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-border-before: 1px;
+  border-radius: 8px;
+}
+
+.bgcolor{
+  /* background: #0050b3; */
+
 }
 
 .allFont{
@@ -136,6 +168,16 @@ img {
 }
 #mysql{
   filter: grayscale(1);
+  width: 70px;
+  height: 70px;
+}
+#Ml{
+  filter: grayscale(1);
+  width: 50px;
+  height: 50px;
+}
+#Ml:hover{
+  filter: none;
 }
 #mongodb:hover{
   filter: none;

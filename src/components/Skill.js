@@ -1,6 +1,8 @@
 import React from 'react'
 import { Row, Divider } from "antd"
 // import { BioContainer, DividerHeader } from "./styles"
+import Mysql from "../components/photo/sql.png";
+import Ml from "../components/photo/ml.png";
 
 
 function Skill() {
@@ -12,7 +14,7 @@ function Skill() {
         <>
             <div className="innerLine">
 
-                <Divider orientation="left">
+                <Divider>
 
                     <h1> {skill} </h1>
                     {/* <DividerHeader>Skills</DividerHeader> */}
@@ -23,14 +25,19 @@ function Skill() {
 
                     {/* <DividerHeader>Expert</DividerHeader> */}
                 </Divider>
-                <Row type="flex" justify="space-around">
+                <Row md={8} type="flex" justify="space-around">
                     <i className="fab fa-3x fa-node-js" />
                     <i className="fab fa-3x fa-css3-alt" />
                     <i className="fab fa-3x fa-git" />
+
+
+                </Row>
+                <Row md={8} type="flex" justify="space-around" >
+                    <img src={Ml} id="Ml" />
                     <i className="fab fa-3x fa-react" />
                     <i className="fab fa-3x fa-js"></i>
                 </Row>
-               
+
 
 
                 <Divider>
@@ -43,6 +50,7 @@ function Skill() {
                 <Row type="flex" justify="space-around">
                     <i class="fab fa-3x fa-vuejs" />
                     {/* <img src={go} alt="Golang" height="66px" /> */}
+                    <img src={Mysql} id="mysql" />
                 </Row>
 
 
