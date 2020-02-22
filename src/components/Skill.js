@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Divider } from "antd"
+import { Row, Divider, Tooltip } from "antd"
 // import { BioContainer, DividerHeader } from "./styles"
 import Mysql from "../components/photo/sql.png";
 import Ml from "../components/photo/ml.png";
@@ -25,17 +25,36 @@ function Skill() {
 
                     {/* <DividerHeader>Expert</DividerHeader> */}
                 </Divider>
-                <Row md={8} type="flex" justify="space-around">
-                    <i className="fab fa-3x fa-node-js" />
-                    <i className="fab fa-3x fa-css3-alt" />
-                    <i className="fab fa-3x fa-git" />
+                <Row  type="flex" justify="space-around" >
+                    <Tooltip placement="topLeft" title="Machine learning">
 
+                        <img src={Ml} id="Ml" />
+                    </Tooltip>
+                    <Tooltip title="React">
 
+                        <i className="fab fa-3x fa-react" />
+                    </Tooltip>
+                    <Tooltip placement="topRight" title="JavaScript">
+
+                        <i className="fab fa-3x fa-js"></i>
+                    </Tooltip>
                 </Row>
-                <Row md={8} type="flex" justify="space-around" >
-                    <img src={Ml} id="Ml" />
-                    <i className="fab fa-3x fa-react" />
-                    <i className="fab fa-3x fa-js"></i>
+
+                <Row  type="flex" justify="space-around" style={{marginTop:10}}>
+                    <Tooltip title="Node.js">
+
+                        <i className="fab fa-3x fa-node-js" />
+                    </Tooltip>
+                    <Tooltip title="CSS">
+
+                        <i className="fab fa-3x fa-css3-alt" />
+                    </Tooltip>
+                    <Tooltip title="Git">
+
+                        <i className="fab fa-3x fa-git" />
+                    </Tooltip>
+
+
                 </Row>
 
 

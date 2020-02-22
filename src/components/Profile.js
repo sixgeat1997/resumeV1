@@ -21,6 +21,7 @@ function Profile() {
                             <Descriptions.Item label="Name"> Chayanon Phonphet </Descriptions.Item>
                             <Descriptions.Item label="Nickname">Por </Descriptions.Item>
                             <Descriptions.Item label="Date of Birth"> 26 August 1997 </Descriptions.Item>
+                            <Descriptions.Item label="Phone number"> (+66) 61 226 1510 </Descriptions.Item>
                             {/* <Descriptions.Item label="Age"> 22 </Descriptions.Item> */}
 
 
