@@ -36,3 +36,134 @@
     transform: rotate(360deg);
   }
 }
+
+.out1{
+  border: 50px;
+  padding: 100px;
+  background: url('./components/photo/bgbody.jpg');
+}
+
+.round{
+  border: 10px;
+  border: 5px black;
+  border-style:  solid;
+  border-radius: 15px;
+  background: white;
+
+}
+
+.innerLine{
+  padding: 10px;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.imgPad{
+  border: 10px black;
+  /* border-style: double; */
+  padding: 50px;
+  padding-top: 100px;
+  /* background: url('./components/photo/bg.jpeg')no-repeat, rgb(119, 199, 252); */
+  background: gray;
+  background-size: cover;
+  
+}
+
+.imgCT{
+  display: flex;
+  align-items: center;
+  border: 10px;
+  padding: 50px;
+  padding-top: 300px;
+}
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top:100px;
+  
+}
+
+.fontPage{
+ 
+  color: #f0f0f0;
+  display: grid;
+  font-family: monospace !important;
+  font-size: 24px;
+  
+  place-content: center;
+}
+
+.allFont{
+  font-family: monospace !important;
+}
+.fa-node-js:hover{
+  color: green;
+}
+.fa-js:hover{
+  color: yellow;
+}
+.fa-react:hover{
+  color: aqua;
+}
+.fa-html5:hover{
+  color: orangered;
+}
+.fa-node-js:hover{
+  color: green;
+}
+#nestjs:hover{
+  filter: none;
+}
+#nestjs{
+  filter: grayscale(1);
+}
+.fa-git:hover{
+  color: orangered;
+}
+.fa-docker:hover{
+  color: aquamarine;
+}
+#mysql:hover{
+  filter: none;
+}
+#mysql{
+  filter: grayscale(1);
+}
+#mongodb:hover{
+  filter: none;
+}
+#mongodb{
+  filter: grayscale(1);
+}
+.fa-vuejs:hover{
+  color: green;
+}
+#flutter:hover{
+  filter: none;
+}
+#flutter{
+  filter: grayscale(1);
+}
+.fa-css3-alt:hover{
+  color: blue; 
+}
+#opencv:hover{
+  filter: none;
+}
+#opencv{
+  filter: grayscale(1);
+}
+#tensorflow:hover{
+  filter: none;
+}
+#tensorflow{
+  filter: grayscale(1);
+}
