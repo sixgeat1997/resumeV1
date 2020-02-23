@@ -55,7 +55,7 @@ function Education() {
                         <Modal
 
                             width="80%"
-                            title="Basic Modal"
+                            title="Transcript"
                             visible={modal.visible}
                             onOk={handleOk}
                             onCancel={handleCancle}
